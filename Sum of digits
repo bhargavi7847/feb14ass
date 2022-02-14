@@ -1,10 +1,11 @@
-num=int(input("input a numbers: "))
-sum=0
-while num>0:
-    sum=sum+(num%10)
-    num=num//10
-    print("sum of the digits: ",sum)
+n=int(input("Enter a number:"))
+tot=0
+while(n>0):
+    dig=n%10
+    tot=tot+dig
+    n=n//10
+print("The total sum of digits is:",tot)
 
 Output:
-input a number:1234
-sum of the digits:10
+enter a number:1234
+The total sum of digits is:10
